@@ -4,6 +4,6 @@
 2. Set up your project in CircleCI and ensure that the `.circleci/config.yml` file exists in the root directory of your project.  
 3. Go to your project settings in CircleCI and add the Percy token as an environment variable:  
    - Navigate to **Project Settings > Environment Variables**.  
-   ![Adding Percy Token to CircleCI](assets/screenshot.png)
+   ![Adding Percy Token to CircleCI](./Screenshot.png)
    - Add a new variable with the name `PERCY_TOKEN` and paste your token as the value.  
 4. Whenever you commit any changes to your project, the CircleCI pipeline will automatically be triggered.
